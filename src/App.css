@@ -1,0 +1,106 @@
+div,
+form {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+
+}
+
+div{max-height: 100vh}
+
+h1{font-style: italic;
+font-weight: 500;
+font-size: xxx-large;}
+
+input {
+  margin-bottom: 5%;
+  font-size: 25px;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+}
+
+input:focus{
+ outline: none;
+ background-color: azure;
+}
+
+ul {
+  border: 2px solid black;
+  min-height: 15vh;
+  min-width: 18vw;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  align-items: center;
+  list-style-type: circle;
+}
+
+li {
+  font-size: x-large;
+  display: flex;
+  gap: 6px;
+  margin: 10px;
+}
+
+button {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  background-color: white;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  background-color: azure;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.deleteButton {
+  font-size: 8px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.deleteButton:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  background-color: azure;
+}
+
+@media (min-width: 768px) {
+  .deleteButton {
+    padding: 0.25em 0.75em;
+  }
+}
