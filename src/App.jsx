@@ -32,25 +32,36 @@ function App() {
         />
         <button type="submit">Add Todo</button>
       </form>
-      <h1>Todos</h1>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo}>
-            {todo}{" "}
-            <button className="deleteButton" onClick={() => handleDelete(todo)}>
-              x
-            </button>
-          </li>
-        ))}
-      </ul>
-      <h1>Done</h1>
-      <ul>
-        {completed.map((todo) => (
-          <li style={{ textDecoration: "line-through" }} key={todo}>
-            {todo}
-          </li>
-        ))}
-      </ul>
+
+      <div className="culo">
+        <div className="todoBox">
+          <h1>Todos</h1>
+          <ul>
+            {todos.map((todo) => (
+              <li key={todo}>
+                {todo}{" "}
+                <button
+                  className="deleteButton"
+                  onClick={() => handleDelete(todo)}
+                >
+                  x
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="doneBox">
+          <h1>Done</h1>
+          <ul>
+            {completed.map((todo) => (
+              <li style={{ textDecoration: "line-through" }} key={todo}>
+                {todo}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
