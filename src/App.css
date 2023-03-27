@@ -24,7 +24,7 @@ input {
 
 input:focus {
   outline: none;
-  background-color: #7a2048;
+  background-color: #FF9FB2;
 }
 
 .listBox {
@@ -59,7 +59,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   border: 2px solid black;
-  background-color: #7a2048;
+  background-color: #FF9FB2;
   min-height: 30vh;
   max-height: 50vh;
   min-width: 18vw;
@@ -82,7 +82,7 @@ button {
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
-  background-color: #7a2048;
+  background-color: #FF9FB2;
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
@@ -98,7 +98,7 @@ button:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
-  background-color: #7a2048;
+  background-color: #FF9FB2;
 }
 
 @media (min-width: 768px) {
@@ -128,7 +128,7 @@ button:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
-  background-color: #7a2048;
+  background-color: #FF9FB2;
 }
 
 @media (min-width: 768px) {
